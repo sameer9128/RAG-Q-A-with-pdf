@@ -26,6 +26,7 @@ embeddings=HuggingFaceEmbeddings(model_name='all-MiniLM-L6-v2')
 
 
 ## setuptsreamlit app
+st.secrets["HF_TOKEN"]
 st.title("Conversational RAG with PDF uploads and chat history")
 st.write("uploads pdf's and chat with their content")
 
